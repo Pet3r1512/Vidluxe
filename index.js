@@ -10,6 +10,8 @@ const io = require('socket.io')(server, {
     }
 })
 
+// LAN ANH
+
 app.use(cors())
 
 app.get("/", (req, res) => {
